@@ -1,4 +1,6 @@
-﻿using Prism.Mvvm;
+﻿using Prism.Commands;
+using Prism.Mvvm;
+using System.Windows;
 
 namespace LtmWpf.ViewModels
 {
@@ -15,5 +17,20 @@ namespace LtmWpf.ViewModels
         {
 
         }
+
+        private DelegateCommand _btn1ClickCommand;
+        public DelegateCommand Btn1ClickCommand =>
+            _btn1ClickCommand ??= new DelegateCommand(() => {
+                MessageBox.Show("Hello Prism");
+            });
+
+
+
+
+
+
+
+
+
     }
 }

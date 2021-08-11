@@ -10,7 +10,7 @@
         <ContentControl prism:RegionManager.RegionName="ContentRegion" />
         <StackPanel>
             <TextBlock Text="Hello"/>
-            
+            <Button x:Name="btn1" Content="Click" Command="{Binding Btn1ClickCommand}"/>
         </StackPanel>
     </Grid>
 </Window>

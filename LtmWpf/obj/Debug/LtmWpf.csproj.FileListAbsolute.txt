@@ -35,7 +35,6 @@ F:\liangmin_ar\MyWpf\LtmWpf\bin\Debug\Prism.DryIoc.Wpf.dll
 F:\liangmin_ar\MyWpf\LtmWpf\bin\Debug\Prism.DryIoc.Wpf.pdb
 F:\liangmin_ar\MyWpf\LtmWpf\bin\Debug\Prism.Wpf.dll
 F:\liangmin_ar\MyWpf\LtmWpf\bin\Debug\Prism.Wpf.pdb
-F:\liangmin_ar\MyWpf\LtmWpf\obj\Debug\LtmWpf.csproj.AssemblyReference.cache
 F:\liangmin_ar\MyWpf\LtmWpf\obj\Debug\LtmWpf.exe.config
 F:\liangmin_ar\MyWpf\LtmWpf\obj\Debug\Views\MainWindow.baml
 F:\liangmin_ar\MyWpf\LtmWpf\obj\Debug\Views\MainWindow.g.cs
