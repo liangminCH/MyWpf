@@ -1,0 +1,16 @@
+﻿<Window x:Class="LtmWpf.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="500" Width="800"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Grid>
+        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        <StackPanel>
+            <TextBlock Text="Hello"/>
+            
+        </StackPanel>
+    </Grid>
+</Window>
